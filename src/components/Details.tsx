@@ -133,7 +133,7 @@ export function Details() {
     <section ref={rootRef} id="details" aria-labelledby="details-title" className="relative bg-ink" style={{height: `${SECTION_VH}svh`}}>
       <div className="sticky top-0 h-screen-s overflow-hidden">
         <div ref={plateRef} className="absolute top-0 left-0 origin-top-left will-change-transform" style={{width: 'max(100vw, calc(100svh * 2400 / 1361))'}}>
-          <img src="/media/revealed.webp" alt="The Valmora Alba GT in the museum hall." width={IMG.w} height={IMG.h} decoding="async" className="block h-auto w-full" />
+          <img src={`${import.meta.env.BASE_URL}media/revealed.webp`} alt="The Valmora Alba GT in the museum hall." width={IMG.w} height={IMG.h} decoding="async" className="block h-auto w-full" />
         </div>
         <div ref={shadeRef} aria-hidden="true" className="pointer-events-none absolute inset-0 bg-[linear-gradient(90deg,transparent_45%,rgb(12_11_10/0.85)_78%)] max-md:bg-[linear-gradient(180deg,transparent_45%,rgb(12_11_10/0.9)_70%)]" />
 

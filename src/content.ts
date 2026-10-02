@@ -41,10 +41,10 @@ export const details: {eyebrow: string; heading: string; items: Detail[]} = {
   eyebrow: 'Design',
   heading: 'Every line drawn once.',
   items: [
-    {id: 'lamp', label: '01', title: 'Crystal headlamps', body: 'Hand-blown glass over polished reflector bowls. They warm up slowly, like a valve amplifier.', x: 77.2, y: 60.8, image: '/media/details/lamp.webp'},
-    {id: 'wheel', label: '02', title: '72-spoke wire wheels', body: 'Laced and trued by one craftsman. Centre-lock knock-offs, chromed three times.', x: 49.2, y: 70.6, image: '/media/details/wheel.webp'},
-    {id: 'cabin', label: '03', title: 'Quilted cabin', body: 'Cream Connolly-style hide, walnut and a wood-rim wheel. The clock is wound by hand.', x: 44.4, y: 49.5, image: '/media/details/cabin.webp'},
-    {id: 'vent', label: '04', title: 'Wing vents', body: 'Three chrome strakes that let the V12 breathe — and catch every light in the room.', x: 41.8, y: 60.4, image: '/media/details/vent.webp'},
+    {id: 'lamp', label: '01', title: 'Crystal headlamps', body: 'Hand-blown glass over polished reflector bowls. They warm up slowly, like a valve amplifier.', x: 77.2, y: 60.8, image: `${import.meta.env.BASE_URL}media/details/lamp.webp`},
+    {id: 'wheel', label: '02', title: '72-spoke wire wheels', body: 'Laced and trued by one craftsman. Centre-lock knock-offs, chromed three times.', x: 49.2, y: 70.6, image: `${import.meta.env.BASE_URL}media/details/wheel.webp`},
+    {id: 'cabin', label: '03', title: 'Quilted cabin', body: 'Cream Connolly-style hide, walnut and a wood-rim wheel. The clock is wound by hand.', x: 44.4, y: 49.5, image: `${import.meta.env.BASE_URL}media/details/cabin.webp`},
+    {id: 'vent', label: '04', title: 'Wing vents', body: 'Three chrome strakes that let the V12 breathe — and catch every light in the room.', x: 41.8, y: 60.4, image: `${import.meta.env.BASE_URL}media/details/vent.webp`},
   ],
 };
 
@@ -66,8 +66,8 @@ export const atelier = {
   eyebrow: 'The atelier',
   heading: ['Coachbuilt,', 'not manufactured.'],
   steps: [
-    {n: '1,400', label: 'hours of hand-beaten aluminium', image: '/media/atelier/front.webp'},
-    {n: '11', label: 'coats of oxblood, rubbed back by hand', image: '/media/atelier/rear.webp'},
+    {n: '1,400', label: 'hours of hand-beaten aluminium', image: `${import.meta.env.BASE_URL}media/atelier/front.webp`},
+    {n: '11', label: 'coats of oxblood, rubbed back by hand', image: `${import.meta.env.BASE_URL}media/atelier/rear.webp`},
   ],
 };
 
