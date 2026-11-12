@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0",
+  "handoffVersion": "2026-11-03T20:08:58.889Z",
+  "projectName": "Olivia’s Smart Closet",
+  "modelName": "Olivia’s Smart Closet",
+  "modelType": "Smart Closet",
+  "confirmedAt": "2026-11-03T20:08:58.889Z",
+  "dimensions": {
+    "width": 3.5731283917283245,
+    "height": 2.3025,
+    "depth": 1.2257359789027804,
+    "units": "m"
+  },
+  "coordinateSystem": "right-handed, Y-up",
+  "camera": {
+    "projection": "perspective",
+    "position": [
+      3.435838789034635,
+      2.918430675467726,
+      5.112451649817915
+    ],
+    "target": [
+      0.3834358041358376,
+      1.15125,
+      0.29286798945139014
+    ],
+    "fov": 38
+  },
+  "background": "#e9e5df",
+  "lighting": "Soft studio",
+  "description": "A connected wardrobe with an illuminated smart mirror, organized storage, inventory sensors, and a companion dashboard. Stylized editable interpretation of the supplied concept.",
+  "hotspots": [],
+  "files": {
+    "model": "model.glb",
+    "project": "project.json",
+    "preview": "preview.png",
+    "readme": "README.txt"
+  },
+  "sha256": "a77c484be0e310291d91e665dd802e9856f79c65968ba6a485a861a7458317f3"
+}
